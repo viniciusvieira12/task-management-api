@@ -1,0 +1,45 @@
+# ENVIRONMENT VARIABLES / SECRETS
+.env
+.envgit
+.env.*
+!.env.example
+!.env.docker
+
+# MAVEN
+target/
+
+# JAVA / SPRING BOOT
+*.class
+*.log
+logs/
+
+# Spring Boot
+*.pid
+*.pid.lock
+*.seed
+
+# INTELLIJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# DATABASE FILES
+*.db
+*.sqlite
+*.sqlite3
+
+# OPERATING SYSTEM FILES
+# Windows
+.DS_Store
+Thumbs.db
+
+# TEMP FILES
+tmp/
+temp/
+*.tmp
+
+# DOCKER
+docker-data/
+mysql-data/
